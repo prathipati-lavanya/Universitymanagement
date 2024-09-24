@@ -171,7 +171,7 @@ public class UniversityManagement {// class
 			case 3:
 				System.out.print("enter the course title: ");
 				String courseTitle=scanner.nextLine();
-				management.addStudent(courseTitle);
+				management.addCourse(courseTitle);
 				break;
 			case 4:
 				System.out.print("enter the student name: ");
