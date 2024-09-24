@@ -38,7 +38,7 @@ public class UniversityManagement {// class
 		Student student = findStudentByName(studentName);// finding the student by name
 		Course course = findCourseByTitle(courseTitle);// find the course by title
 		if (student != null && course != null) {
-			student.enrollIncourse(course); // enroll the student in course
+			student.enrollInCourse(course); // enroll the student in course
 		} else {
 			System.out.println("student or course Not Found!"); // error message if not found
 		}
